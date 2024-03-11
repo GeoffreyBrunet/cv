@@ -1,9 +1,12 @@
-\documentclass{article}
+\documentclass[10pt,a4paper,oneside]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \usepackage{multicol}
 \usepackage{geometry}
-\geometry{hmargin=2.5cm,vmargin=1.5cm}
+\geometry{hmargin=1.5cm,vmargin=1.5cm}
+\usepackage{selectp}
+
+\outputonly{2}
 
 \title{Curriculum Vitae}
 \author{BRUNET GEOFFREY}
@@ -11,9 +14,16 @@
 
 \begin{document}
 
+\vspace*{-\baselineskip}
+
+\thispagestyle{empty}
+
+\textbf{\maketitle}
+
 \begin{multicols}{2}
 
-\maketitle
+
+\thispagestyle{empty}
 
 \section*{Coordonnées}
 10 rue du Grand Caire, Auxerre, 89000 \\
@@ -27,7 +37,8 @@ En dernière année de bac +5, je souhaite acquérir le poste de software engine
 
 \section*{Expérience}
 \begin{itemize}
-    \item \textbf{Alternance depuis septembre 2020 chez Quartz Insight en tant que développeur}
+    \item \textbf{CDI depuis septembre 2023 chez Quartz Insight en tant que Software engineer}
+    \item \textbf{Alternance de 3 ans, de septembre 2020 à septembre 2023 chez Quartz Insight en tant que développeur}
     \begin{itemize}
         \item Création d’un outil de gestion de licences pour le logiciel de l’entreprise.
         \item Création d’un outil d’acquisition et de gestion de journaux d’évènements.
