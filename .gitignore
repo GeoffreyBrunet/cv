@@ -1,10 +1,10 @@
 # Latex files
-cv.aux
-cv.fdb_latexmk
-cv.fls
-cv.log
-cv.out
-cv.synctex.gz
+cv-brunet-geoffrey.aux
+cv-brunet-geoffrey.fdb_latexmk
+cv-brunet-geoffrey.fls
+cv-brunet-geoffrey.log
+cv-brunet-geoffrey.out
+cv-brunet-geoffrey.synctex.gz
 
 # Other files
 .DS_Store
