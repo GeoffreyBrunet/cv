@@ -1,3 +1,3 @@
 # Personal curriculum vitæ
 
-Made in LaTeX
+Made in LaTeX by me.
